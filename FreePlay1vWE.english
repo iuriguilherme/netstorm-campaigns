@@ -19,7 +19,7 @@ ai3Collectors = 8
 ai3TimeBetweenMoves = 1
 ai3AllyList = ""
 ai3color = white
-ai3Ability=""
+ai3Ability = ""
 ai3BridgeDrawRate = 1
 
 [Options]

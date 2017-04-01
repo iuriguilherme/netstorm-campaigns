@@ -19,7 +19,7 @@ ai8Collectors = 8
 ai8TimeBetweenMoves = 1
 ai8AllyList = ""
 ai8color = orange
-ai8Ability=""
+ai8Ability = ""
 ai8BridgeDrawRate = 1
 
 [Options]

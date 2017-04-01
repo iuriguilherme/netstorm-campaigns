@@ -19,7 +19,7 @@ ai6Collectors = 8
 ai6TimeBetweenMoves = 1
 ai6AllyList = ""
 ai6color = yellow
-ai6Ability=""
+ai6Ability = ""
 ai6BridgeDrawRate = 1
 
 [Options]

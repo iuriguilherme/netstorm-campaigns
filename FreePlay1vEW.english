@@ -19,7 +19,7 @@ ai4Collectors = 8
 ai4TimeBetweenMoves = 1
 ai4AllyList = ""
 ai4color = green
-ai4Ability=""
+ai4Ability = ""
 ai4BridgeDrawRate = 1
 
 [Options]
