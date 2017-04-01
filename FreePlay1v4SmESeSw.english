@@ -1,0 +1,91 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+randGeysers = 1
+
+myStartMoney = 6500
+myTech = "all;outpost"
+myAllyList = ""
+
+title="1 versus 4"
+
+ai2Name = "Red"
+ai2Tech = ""
+ai2StartMoney = 6500
+ai2GeyserAttachments = 8
+ai2Collectors = 8
+ai2TimeBetweenMoves = 1
+ai2AllyList = "4;5;8"
+ai2color = red
+ai2Ability = ""
+ai2BridgeDrawRate = 1
+
+ai4Name = "Green"
+ai4Tech = ""
+ai4StartMoney = 6500
+ai4GeyserAttachments = 8
+ai4Collectors = 8
+ai4TimeBetweenMoves = 1
+ai4AllyList = "2;5;8"
+ai4color = green
+ai4Ability = ""
+ai4BridgeDrawRate = 1
+
+ai5Name = "Purple"
+ai5Tech = ""
+ai5StartMoney = 6500
+ai5GeyserAttachments = 8
+ai5Collectors = 8
+ai5TimeBetweenMoves = 1
+ai5AllyList = "2;4;8"
+ai5color = purple
+ai5Ability = ""
+ai5BridgeDrawRate = 1
+
+ai8Name = "Orange"
+ai8Tech = ""
+ai8StartMoney = 6500
+ai8GeyserAttachments = 8
+ai8Collectors = 8
+ai8TimeBetweenMoves = 1
+ai8AllyList = "2;4;5"
+ai8color = orange
+ai8Ability = ""
+ai8BridgeDrawRate = 1
+
+[Options]
+
+[A.]
+<h2>Game: 1 versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Enemy 1 position: North ~[IplayerBanner.9]</h3>
+<h3>Enemy 2 position: Northeast ~[IplayerBanner.12]</h3>
+<h3>Enemy 3 position: Northwest ~[IplayerBanner.15]</h3>
+<h3>Enemy 4 position: West ~[IplayerBanner.11]</h3>
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>You won.
+
+<$Config,Done{mission.fileName}=1>
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[Failed]
+<h2>Failure!</h2>
+<p>You lost.
+
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[END]

@@ -164,4 +164,81 @@ $Button=Back,Tell,Menu1v2S
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
+[Menu1v3]
+<h2>Game: 1 Versus 3</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,Menu1v3S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v4]
+<h2>Game: 1 Versus 4</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,Menu1v4S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v4S]
+<h2>Game: 1 Versus 5</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select three positions to be empty. All other four positions will be taken by enemies.
+
+$Menu=West ~[IplayerBanner.11] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SmWSeSw
+$Menu=East ~[IplayerBanner.10] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SmESeSw
+$Button=Back,Tell,Menu1v5
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v5]
+<h2>Game: 1 Versus 5</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,Menu1v5S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v5S]
+<h2>Game: 1 Versus 5</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select two positions to be empty. All other five positions will be taken by enemies.
+
+$Menu=Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v5SmSeSw
+$Button=Back,Tell,Menu1v5
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v6]
+<h2>Game: 1 Versus 6</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,Menu1v6S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v6S]
+<h2>Game: 1 Versus 6</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select one position to be empty. All other six positions will be taken by enemies.
+
+$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1v6SmSe
+$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v6SmSw
+$Button=Back,Tell,Menu1v6
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v7]
+<h2>Game: 1 Versus 7</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],MissionBegin,FreePlay1v7S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
 [END]
