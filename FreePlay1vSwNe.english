@@ -37,22 +37,18 @@ $Button=Play Mission,DoNothing,0
 <p>You won.
 
 <$Config,Done{mission.fileName}=1>
-$Button=Continue,DoNothing,0
-$Button=Restart,Tell,TryAgain
-$Button=Campaigns,Tell,Campaign
-$Button=Leave,MissionAbort,0
-$Button=Previous,MissionBegin,FreePlay006
-$Button=Next,MissionBegin,FreePlay008
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Failed]
 <h2>Failure!</h2>
 <p>You lost.
 
-$Button=Continue,DoNothing,0
-$Button=Restart,Tell,TryAgain
-$Button=Campaigns,Tell,Campaign
-$Button=Leave,MissionAbort,0
-$Button=Previous,MissionBegin,FreePlay006
-$Button=Next,MissionBegin,FreePlay008
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [END]
