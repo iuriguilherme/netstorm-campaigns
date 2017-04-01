@@ -35,14 +35,14 @@ $Button=Cancel,Tell,Campaign
 <h2>1 Versus 1</h2>
 <p>Select your starting position. Enemy will be placed on the opposing side with appropriate color.
 
-$Menu=South,MissionBegin,FreePlay001
-$Menu=North,MissionBegin,FreePlay002
-$Menu=East,MissionBegin,FreePlay003
-$Menu=West,MissionBegin,FreePlay004
-$Menu=Northeast,MissionBegin,FreePlay005
-$Menu=Southeast,MissionBegin,FreePlay006
-$Menu=Southwest,MissionBegin,FreePlay007
-$Menu=Northwest,MissionBegin,FreePlay008
+$Menu=South,MissionBegin,FreePlay1vSN
+$Menu=North,MissionBegin,FreePlay1vNS
+$Menu=East,MissionBegin,FreePlay1vEW
+$Menu=West,MissionBegin,FreePlay1vWE
+$Menu=Northeast,MissionBegin,FreePlay1vNeSw
+$Menu=Southeast,MissionBegin,FreePlay1vSeNw
+$Menu=Southwest,MissionBegin,FreePlay1vSwNe
+$Menu=Northwest,MissionBegin,FreePlay1vNwSe
 $Button=Back,Tell,A.
 
 [END]
