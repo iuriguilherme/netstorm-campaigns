@@ -9,25 +9,25 @@ myStartMoney = 6500
 myTech = "all;outpost"
 myAllyList = ""
 
-title="South 1 versus 1"
+title="Northwest 1 versus 1"
 
-ai2Name = "Red"
-ai2Tech = ""
-ai2StartMoney = 6500
-ai2GeyserAttachments = 8
-ai2Collectors = 8
-ai2TimeBetweenMoves = 1
-ai2AllyList = ""
-ai2color = red
-ai2Ability=""
-ai2BridgeDrawRate = 1
+ai7Name = "Teal"
+ai7Tech = ""
+ai7StartMoney = 6500
+ai7GeyserAttachments = 8
+ai7Collectors = 8
+ai7TimeBetweenMoves = 1
+ai7AllyList = ""
+ai7color = teal
+ai7Ability=""
+ai7BridgeDrawRate = 1
 
 [Options]
 
 [A.]
-<h2>South 1 versus 1</h2>
-<p>This is a vertical two players game.
-<p>You are the south player.
+<h2>Northwest 1 versus 1</h2>
+<p>This is a diagonal two players game.
+<p>You are the northwest player.
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
@@ -41,7 +41,8 @@ $Button=Continue,DoNothing,0
 $Button=Restart,Tell,TryAgain
 $Button=Campaigns,Tell,Campaign
 $Button=Leave,MissionAbort,0
-$Button=Next,MissionBegin,FreePlay002
+$Button=Previous,MissionBegin,FreePlay007
+$Button=Next,MissionBegin,FreePlay009
 
 [Failed]
 <h2>Failure!</h2>
@@ -51,6 +52,7 @@ $Button=Continue,DoNothing,0
 $Button=Restart,Tell,TryAgain
 $Button=Campaigns,Tell,Campaign
 $Button=Leave,MissionAbort,0
-$Button=Next,MissionBegin,FreePlay002
+$Button=Previous,MissionBegin,FreePlay007
+$Button=Next,MissionBegin,FreePlay009
 
 [END]

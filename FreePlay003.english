@@ -34,7 +34,7 @@ $Button=Play Mission,DoNothing,0
 
 [Succeeded][BadTeamDead]
 <h2>Success!</h2>
-<p>You win.
+<p>You won.
 
 <$Config,Done{mission.fileName}=1>
 $Button=Continue,DoNothing,0

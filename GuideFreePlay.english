@@ -20,8 +20,12 @@ title = "NetStorm Free Play"
 --Someone else on Reddit</i> ~[IsunWalker.1]
 
 $Checked=1 1 versus 1 (South-north),MissionBegin,FreePlay001,{DoneFreePlay001},1
-$Checked=1 1 versus 1 (North-south),MissionBegin,FreePlay002,{DoneFreePlay002},1
-$Checked=1 1 versus 1 (East-west),MissionBegin,FreePlay003,{DoneFreePlay003},1
-$Checked=1 1 versus 1 (West-east),MissionBegin,FreePlay004,{DoneFreePlay004},1
+$Checked=2 1 versus 1 (North-south),MissionBegin,FreePlay002,{DoneFreePlay002},1
+$Checked=3 1 versus 1 (East-west),MissionBegin,FreePlay003,{DoneFreePlay003},1
+$Checked=4 1 versus 1 (West-east),MissionBegin,FreePlay004,{DoneFreePlay004},1
+$Checked=5 1 versus 1 (Northeast-southwest),MissionBegin,FreePlay005,{DoneFreePlay005},1
+$Checked=6 1 versus 1 (Southeast-northwest),MissionBegin,FreePlay006,{DoneFreePlay006},1
+$Checked=7 1 versus 1 (Southwest-northeast),MissionBegin,FreePlay007,{DoneFreePlay007},1
+$Checked=8 1 versus 1 (Northwest-southeast),MissionBegin,FreePlay008,{DoneFreePlay008},1
 
 $Button=Back,Tell,Campaign
