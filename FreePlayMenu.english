@@ -27,22 +27,104 @@ ai2BridgeDrawRate = 8
 <h2>Free Play Interactive Menu</h2>
 <p>Select type of game
 
-$Menu=1v1,Tell,Menu1v1
+$Menu=1v (two players - 1 versus 1),Tell,Menu1v
 
 $Button=Cancel,Tell,Campaign
 
-[Menu1v1]
+[Menu1v]
 <h2>1 Versus 1</h2>
-<p>Select your starting position. Enemy will be placed on the opposing side with appropriate color.
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
-$Menu=South,MissionBegin,FreePlay1vSN
-$Menu=North,MissionBegin,FreePlay1vNS
-$Menu=East,MissionBegin,FreePlay1vEW
-$Menu=West,MissionBegin,FreePlay1vWE
-$Menu=Northeast,MissionBegin,FreePlay1vNeSw
-$Menu=Southeast,MissionBegin,FreePlay1vSeNw
-$Menu=Southwest,MissionBegin,FreePlay1vSwNe
-$Menu=Northwest,MissionBegin,FreePlay1vNwSe
+$Menu=South ~[IplayerBanner.8],Tell,Menu1vS
+$Menu=North ~[IplayerBanner.9],Tell,Menu1vN
+$Menu=East ~[IplayerBanner.10],Tell,Menu1vE
+$Menu=West ~[IplayerBanner.11],Tell,Menu1vW
+$Menu=Northeast ~[IplayerBanner.12],Tell,Menu1vNe
+$Menu=Southeast ~[IplayerBanner.13],Tell,Menu1vSe
+$Menu=Southwest ~[IplayerBanner.14],Tell,Menu1vSw
+$Menu=Northwest ~[IplayerBanner.15],Tell,Menu1vNw
 $Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vS]
+<h2>1 Versus 1</h2>
+<h3>Starting position: South ~[IplayerBanner.8]</h3>
+<p>Select enemy starting position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlay1vSN
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vN]
+<h2>1 Versus 1</h2>
+<h3>Starting position: North ~[IplayerBanner.9]</h3>
+<p>Select enemy starting position.
+
+$Menu=South ~[IplayerBanner.8] (will be ~[IplayerBanner.9]),MissionBegin,FreePlay1vNS
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vE]
+<h2>1 Versus 1</h2>
+<h3>Starting position: East ~[IplayerBanner.10]</h3>
+<p>Select enemy starting position.
+
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlay1vEW
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vW]
+<h2>1 Versus 1</h2>
+<h3>Starting position: West ~[IplayerBanner.11]</h3>
+<p>Select enemy starting position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlay1vWE
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vNe]
+<h2>1 Versus 1</h2>
+<h3>Starting position: Northeast ~[IplayerBanner.12]</h3>
+<p>Select enemy starting position.
+
+$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1vNeSw
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vSe]
+<h2>1 Versus 1</h2>
+<h3>Starting position: Southeast ~[IplayerBanner.13]</h3>
+<p>Select enemy starting position.
+
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1vSeNw
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vSw]
+<h2>1 Versus 1</h2>
+<h3>Starting position: Southwest ~[IplayerBanner.14]</h3>
+<p>Select enemy starting position.
+
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1vSeNw
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1vNw]
+<h2>1 Versus 1</h2>
+<h3>Starting position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select enemy starting position.
+
+$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1vNwSe
+$Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
 
 [END]
