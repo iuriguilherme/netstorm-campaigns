@@ -20,14 +20,15 @@ ai2color = red
 ai2Ability="!ATTACH_TO_ENEMY_ISLAND;!COLLECT_STORM_POWER;!ENCIRCLE_ENEMY_ISLAND;!CAPTURE_ENEMY_PRIEST;!BUILD_DAIS;!SACRIFICE_ENEMY_PRIEST;!USE_PRIEST_TO_COLLECT;!BUILD_BRIDGES"
 ai2BridgeDrawRate = 8
 
-
 [Options]
 
 [A.]
 <h2>Free Play Interactive Menu</h2>
 <p>Select type of game
+<p>If you don't see an option, it's because it is still not implemented. Make sure ~B~ENetStorm Free Play Campaign~. is updated by visiting <a href="https://github.com/desci/netstorm-campaigns">https://github.com/desci/netstorm-campaigns</a>.
 
-$Menu=1v (two players - 1 versus 1),Tell,Menu1v
+$Menu=1 versus 1,Tell,Menu1v
+$Menu=1 versus 2,Tell,Menu1v2
 
 $Button=Cancel,Tell,Campaign
 
@@ -124,6 +125,37 @@ $Button=Quit,MissionAbort,0
 
 $Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1vNwSe
 $Button=Back,Tell,Menu1v
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v2]
+<h2>1 Versus 2</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,Menu1v2S
+$Button=Back,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v2S]
+<h2>1 Versus 2</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select enemy 1 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,Menu1v2SN
+$Button=Back,Tell,Menu1v2
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[Menu1v2SN]
+<h2>1 Versus 2</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h4>Enemy 1 position: North ~[IplayerBanner.9]</h4>
+<p>Select enemy 2 position.
+
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1v2SNe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1v2SNw
+$Button=Back,Tell,Menu1v2S
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
