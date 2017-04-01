@@ -1,0 +1,48 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 0
+myTech = ""
+myAllyList = ""
+
+title="NetStorm Free Play Menu"
+
+ai2Name = "Unnamed"
+ai2Tech = ""
+ai2StartMoney = 0
+ai2GeyserAttachments = 1
+ai2Collectors = 1
+ai2TimeBetweenMoves = 5
+ai2AllyList = ""
+ai2color = red
+ai2Ability="!ATTACH_TO_ENEMY_ISLAND;!COLLECT_STORM_POWER;!ENCIRCLE_ENEMY_ISLAND;!CAPTURE_ENEMY_PRIEST;!BUILD_DAIS;!SACRIFICE_ENEMY_PRIEST;!USE_PRIEST_TO_COLLECT;!BUILD_BRIDGES"
+ai2BridgeDrawRate = 8
+
+
+[Options]
+
+[A.]
+<h2>Free Play Interactive Menu</h2>
+<p>Select type of game
+
+$Menu=1v1,Tell,Menu1v1
+
+$Button=Cancel,Tell,Campaign
+
+[Menu1v1]
+<h2>1 Versus 1</h2>
+<p>Select your starting position. Enemy will be placed on the opposing side with appropriate color.
+
+$Menu=South,MissionBegin,FreePlay001
+$Menu=North,MissionBegin,FreePlay002
+$Menu=East,MissionBegin,FreePlay003
+$Menu=West,MissionBegin,FreePlay004
+$Menu=Northeast,MissionBegin,FreePlay005
+$Menu=Southeast,MissionBegin,FreePlay006
+$Menu=Southwest,MissionBegin,FreePlay007
+$Menu=Northwest,MissionBegin,FreePlay008
+$Button=Back,Tell,A.
+
+[END]
