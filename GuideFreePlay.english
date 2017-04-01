@@ -1,0 +1,27 @@
+title = "NetStorm Free Play"
+
+[Overview]
+<background="nsstart">
+<h2>NetStorm Free Play Campaign</h2>
+<p>This campaign has no story. This is just a reunion of edited maps for single playing.
+<p>Some of the maps are inspired in what a multiplayer game would look like.
+<p>You can start any level, you don't have to complete one to play another.
+<p>For all maps, you have all technology, plus outposts.
+<p>
+<h3>Links</h3>
+<p>This campaign is released to the public domain with "The Unlicense", you may edit the files at will. Even send back your modifications or additions =D
+<p>This is a work in progress. Last update should be on github: <a href="https://github.com/desci/netstorm-campaigns">https://github.com/desci/netstorm-campaigns</a>
+<p>This was supposed to be published originally at the netstorm subreddit: <a href="https://reddit.com/r/netstorm">https://reddit.com/r/netstorm</a>
+<p>
+<i>Where are nsworld, fleet, kelljes, big, ingwe, stormy, 18c, needa, kain, gonz, not necessarily in that order?<br />
+--Someone on Reddit</i> ~[IsunWalker.0]
+<p>
+<i>Is netstormhq.com working for you guys?<br />
+--Someone else on Reddit</i> ~[IsunWalker.1]
+
+$Checked=1 1 versus 1 (South-north),MissionBegin,FreePlay001,{DoneFreePlay001},1
+$Checked=1 1 versus 1 (North-south),MissionBegin,FreePlay002,{DoneFreePlay002},1
+$Checked=1 1 versus 1 (East-west),MissionBegin,FreePlay003,{DoneFreePlay003},1
+$Checked=1 1 versus 1 (West-east),MissionBegin,FreePlay004,{DoneFreePlay004},1
+
+$Button=Back,Tell,Campaign

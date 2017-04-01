@@ -1,0 +1,58 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+randGeysers = 1
+
+myStartMoney = 6500
+myTech = "all;outpost"
+myAllyList = ""
+
+title="West 1 versus 1"
+
+ai3Name = "White"
+ai3Tech = ""
+ai3StartMoney = 6500
+ai3GeyserAttachments = 8
+ai3Collectors = 8
+ai3TimeBetweenMoves = 1
+ai3AllyList = ""
+ai3color = white
+ai3Ability=""
+ai3BridgeDrawRate = 1
+
+[Options]
+
+[A.]
+<h2>West 1 versus 1</h2>
+<p>This is an horizontal two players game.
+<p>You are the west player.
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>You win.
+
+<$Config,Done{mission.fileName}=1>
+$Button=Continue,DoNothing,0
+$Button=Restart,Tell,TryAgain
+$Button=Campaigns,Tell,Campaign
+$Button=Leave,MissionAbort,0
+$Button=Previous,MissionBegin,FreePlay002
+$Button=Next,MissionBegin,FreePlay004
+
+[Failed]
+<h2>Failure!</h2>
+<p>You lost.
+
+$Button=Continue,DoNothing,0
+$Button=Restart,Tell,TryAgain
+$Button=Campaigns,Tell,Campaign
+$Button=Leave,MissionAbort,0
+$Button=Previous,MissionBegin,FreePlay002
+$Button=Next,MissionBegin,FreePlay004
+
+[END]
