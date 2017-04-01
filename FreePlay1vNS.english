@@ -25,12 +25,13 @@ ai2BridgeDrawRate = 1
 [Options]
 
 [A.]
-<h2>North 1 versus 1</h2>
-<p>This is a vertical two players game.
-<p>You are the north player.
+<h2>Game: 1 versus 1</h2>
+<h3>Player position: North ~[IplayerBanner.9]</h3>
+<h3>Enemy position: South ~[IplayerBanner.8] (will be ~[IplayerBanner.9])</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Succeeded][BadTeamDead]
 <h2>Success!</h2>

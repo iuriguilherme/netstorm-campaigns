@@ -25,12 +25,13 @@ ai4BridgeDrawRate = 1
 [Options]
 
 [A.]
-<h2>East 1 versus 1</h2>
-<p>This is an horizontal two players game.
-<p>You are the east player.
+<h2>Game: 1 versus 1</h2>
+<h3>Player position: East ~[IplayerBanner.10]</h3>
+<h3>Enemy position: West ~[IplayerBanner.11]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Succeeded][BadTeamDead]
 <h2>Success!</h2>

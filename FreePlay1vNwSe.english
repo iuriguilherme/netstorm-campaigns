@@ -11,26 +11,27 @@ myAllyList = ""
 
 title="Northwest 1 versus 1"
 
-ai7Name = "Teal"
+ai7Name = "Cyan"
 ai7Tech = ""
 ai7StartMoney = 6500
 ai7GeyserAttachments = 8
 ai7Collectors = 8
 ai7TimeBetweenMoves = 1
 ai7AllyList = ""
-ai7color = teal
+ai7color = cyan
 ai7Ability=""
 ai7BridgeDrawRate = 1
 
 [Options]
 
 [A.]
-<h2>Northwest 1 versus 1</h2>
-<p>This is a diagonal two players game.
-<p>You are the northwest player.
+<h2>Game: 1 versus 1</h2>
+<h3>Player position: Northwest ~[IplayerBanner.15]</h3>
+<h3>Enemy position: Southeast ~[IplayerBanner.13]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Succeeded][BadTeamDead]
 <h2>Success!</h2>

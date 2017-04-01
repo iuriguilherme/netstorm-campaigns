@@ -25,12 +25,13 @@ ai8BridgeDrawRate = 1
 [Options]
 
 [A.]
-<h2>Southwest 1 versus 1</h2>
-<p>This is a diagonal two players game.
-<p>You are the southwest player.
+<h2>Game: 1 versus 1</h2>
+<h3>Player position: Southwest ~[IplayerBanner.14]</h3>
+<h3>Enemy position: Northeast ~[IplayerBanner.12]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Succeeded][BadTeamDead]
 <h2>Success!</h2>
