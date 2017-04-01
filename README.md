@@ -4,13 +4,15 @@ This is a collection of edited maps for [Netstorm: Islands at War](https://en.wi
 
 There's no lore, story, or anything like that. These are just generated maps for the purpose of single playing. Some of them are inspired in what a multiplayer game would be.
 
-## Using
+## Instructions
 
 Extract these files in NetStorm's `d\` subfolder.
 
 For example:
 
     C:\Program Files(x86)\NetStorm\d\
+
+There shall be a new campaign in the campaign menu named **NetStorm Free Play**.
 
 ## Notes
 
