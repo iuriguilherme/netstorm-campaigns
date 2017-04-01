@@ -13,7 +13,7 @@ title="West 1 versus 1"
 
 ai3Name = "White"
 ai3Tech = ""
-ai3StartMoney = 6500
+ai3StartMoney = 1100
 ai3GeyserAttachments = 8
 ai3Collectors = 8
 ai3TimeBetweenMoves = 1

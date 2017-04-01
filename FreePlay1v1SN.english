@@ -13,7 +13,7 @@ title="South 1 versus 1"
 
 ai2Name = "Red"
 ai2Tech = ""
-ai2StartMoney = 6500
+ai2StartMoney = 1100
 ai2GeyserAttachments = 8
 ai2Collectors = 8
 ai2TimeBetweenMoves = 1
