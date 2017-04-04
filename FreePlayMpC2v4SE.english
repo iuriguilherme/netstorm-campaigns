@@ -98,8 +98,8 @@ ai8BridgeDrawRate = 1
 <h3>Enemy #1 position: North ~[IplayerBanner.9]</h3>
 <h3>Enemy #2 position: West ~[IplayerBanner.11]</h3>
 <h3>Enemy #3 position: Northeast ~[IplayerBanner.12]</h3>
-<h3>Enemy #4 position: Southeast ~[IplayerBanner.13]</h3>
-<h3>Enemy #5 position: Southwest ~[IplayerBanner.14]</h3>
+<h3>Enemy #4 position: Southwest ~[IplayerBanner.13]</h3>
+<h3>Enemy #5 position: Southeast ~[IplayerBanner.14]</h3>
 <h3>Enemy #6 position: Northwest ~[IplayerBanner.15]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55

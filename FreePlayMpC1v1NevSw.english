@@ -28,7 +28,7 @@ ai6BridgeDrawRate = 1
 <h1>Multiplayer Classic Islands</h1>
 <h2>Game: 1 Versus 1</h2>
 <h3>Player position: Northeast ~[IplayerBanner.12] (color will be ~[IplayerBanner.8])</h3>
-<h3>Enemy position: Southwest ~[IplayerBanner.14]</h3>
+<h3>Enemy position: Southwest ~[IplayerBanner.13]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
 $Button=Play Mission,DoNothing,0
