@@ -583,9 +583,9 @@ $Button=Quit,MissionAbort,0
 $Menu=2 versus 1,Tell,MenuMpC2v1
 $Menu=2 versus 2,Tell,MenuMpC2v2
 $Menu=2 versus 3,Tell,MenuMpC2v3
-$Menu=2 versus 4,Tell,MenuMpC2v4
+$Menu=~r~B~E(not available)~w~. 2 versus 4,Tell,MenuMpC2
 $Menu=~r~B~E(not available)~w~. 2 versus 5,Tell,MenuMpC2
-$Menu=~r~B~E(not available)~w~. 2 versus 6,Tell,MenuMpC2
+$Menu=2 versus 6,Tell,MenuMpC2v6
 
 $Button=Back,Tell,MenuMpC
 $Button=Restart,Tell,A.
@@ -731,7 +731,7 @@ $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v2SSevN
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v2SSevN
 $Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC2v2SSevN
 $Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2v2SSevN
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,MenuMpC2v2SSevNNw
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC2v2SSevNNw
 
 $Button=Back,Tell,MenuMpC2v2SSe
 $Button=Restart,Tell,A.
@@ -765,7 +765,7 @@ $Button=Quit,MissionAbort,0
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v2SSwvN
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v2SSwvN
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,MenuMpC2v2SSwvNNe
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC2v2SSwvNNe
 $Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v2SSwvN
 $Menu=~r~B~E(not available)~w~. Northwest ~[IplayerBanner.15],Tell,MenuMpC2v2SSwvN
 
@@ -858,7 +858,7 @@ $Button=Quit,MissionAbort,0
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v3SSevNNe
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v3SSevNNe
 $Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2v3SSevNNe
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,MenuMpC2v3SSevNNeNw
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC2v3SSevNNeNw
 
 $Button=Back,Tell,MenuMpC2v3SSevN
 $Button=Restart,Tell,A.
@@ -875,7 +875,7 @@ $Button=Quit,MissionAbort,0
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v3SSevNNe
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v3SSevNNe
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,MenuMpC2v3SSevNNeNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC2v3SSevNNeNw
 $Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2v3SSevNNe
 
 $Button=Back,Tell,MenuMpC2v3SSevN
@@ -912,7 +912,7 @@ $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v3SSwvN
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v3SSwvN
 $Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC2v3SSwvNNe
 $Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v3SSwvN
-$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC2v3SSwvNNw
+$Menu=Northwest ~[IplayerBanner.15],Tell,FreePlayMpC2v3SSwvNNw
 
 $Button=Back,Tell,MenuMpC2v3SSw
 $Button=Restart,Tell,A.
@@ -930,7 +930,7 @@ $Button=Quit,MissionAbort,0
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v3SSwvNNe
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v3SSwvNNe
 $Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v3SSwvNNe
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,MenuMpC2v3SSwvNNeNw
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC2v3SSwvNNeNw
 
 $Button=Back,Tell,MenuMpC2v3SSwvN
 $Button=Restart,Tell,A.
@@ -947,47 +947,47 @@ $Button=Quit,MissionAbort,0
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v3SSwvNNe
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v3SSwvNNe
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,MenuMpC2v3SSwvNNeNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC2v3SSwvNNeNw
 $Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v3SSwvNNe
 
 $Button=Back,Tell,MenuMpC2v3SSwvN
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
-[MenuMpC2v4]
+[MenuMpC2v6]
 <h1>Multiplayer Classic Islands</h1>
-<h2>Game: 2 Versus 4</h2>
+<h2>Game: 2 Versus 6</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
-$Menu=South ~[IplayerBanner.8],Tell,MenuMpC2v4S
-$Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v4
-$Menu=~r~B~E(not available)~w~. Northwest ~[IplayerBanner.15],Tell,MenuMpC2v4
+$Menu=South ~[IplayerBanner.8],Tell,MenuMpC2v6S
+$Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2v6
+$Menu=~r~B~E(not available)~w~. Northwest ~[IplayerBanner.15],Tell,MenuMpC2v6
 
 $Button=Back,Tell,MenuMpC2
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
-[MenuMpC2v4S]
+[MenuMpC2v6S]
 <h1>Multiplayer Classic Islands</h1>
-<h2>Game: 2 Versus 4</h2>
+<h2>Game: 2 Versus 6</h2>
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select Ally position.
 
-$Menu=North ~[IplayerBanner.9],MissionBegin,MenuMpC2v4SN
-$Menu=East ~[IplayerBanner.10],MissionBegin,MenuMpC2v4SE
-$Menu=West ~[IplayerBanner.11],MissionBegin,MenuMpC2v4SW
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,MenuMpC2v4SNe
-$Menu=Southwest ~[IplayerBanner.13],MissionBegin,MenuMpC2v4SSw
-$Menu=Southeast ~[IplayerBanner.14],MissionBegin,MenuMpC2v4SSe
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,MenuMpC2v4SNw
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC2v6SN
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC2v6SE
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC2v6SW
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC2v6SNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC2v6SSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC2v6SSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC2v6SNw
 
-$Button=Back,Tell,MenuMpC2v4
+$Button=Back,Tell,MenuMpC2v6
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
