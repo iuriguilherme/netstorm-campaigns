@@ -42,6 +42,8 @@ $Button=Quit,MissionAbort,0
 
 $Menu=0,Tell,MenuMpC1
 $Menu=1,Tell,MenuMpC2
+$Menu=2,Tell,MenuMpC3
+$Menu=3,Tell,MenuMpC4
 
 $Button=Back,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -1166,6 +1168,561 @@ $Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC3v5SSwNw
 $Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC3v5SSeNw
 
 $Button=Back,Tell,MenuMpC3v5S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus X</h2>
+<p>Select number of enemies
+
+$Menu=~r~B~E(not available)~w~. 3 versus 1,Tell,MenuMpC4
+$Menu=~r~B~E(not available)~w~. 3 versus 2,Tell,MenuMpC4
+$Menu=~r~B~E(not available)~w~. 3 versus 3,Tell,MenuMpC4
+$Menu=4 versus 4,Tell,MenuMpC4v4
+
+$Button=Back,Tell,MenuMpC
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,MenuMpC4v4S
+$Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4
+$Menu=~r~B~E(not available)~w~. Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4
+
+$Button=Back,Tell,MenuMpC4
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4S]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select Ally #1 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SN
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SE
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SW
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SNe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SSw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SNw
+
+$Button=Back,Tell,MenuMpC4v4
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SN]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<p>Select Ally #2 position.
+
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SNE
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SNW
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SNNe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SNSw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SNSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SNNw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNE]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: East ~[IplayerBanner.10]</h3>
+<p>Select Ally #3 position.
+
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SNEW
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNENe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNESw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNESe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNENw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNW]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: West ~[IplayerBanner.11]</h3>
+<p>Select Ally #3 position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SNEW
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNWNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNWSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNWSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNWNw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNNe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: Northeast ~[IplayerBanner.12]</h3>
+<p>Select Ally #3 position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SNENe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SNWNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNNeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNNeSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNNeNw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNSw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: Southwest ~[IplayerBanner.13]</h3>
+<p>Select Ally #3 position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SNESw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SNWSw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNNeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNSwNw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNSe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #3 position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SNESe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SNWSe
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNNeSe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNSeNw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SNENw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SNWNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNNeNw
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNSwNw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNSeNw
+
+$Button=Back,Tell,MenuMpC4v4SN
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SE]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNE
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SEW
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SENe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SESw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SESe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SENw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SEW]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<h3>Ally #2 position: West ~[IplayerBanner.11]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNEW
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SEWNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SEWSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SEWSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SEWNw
+
+$Button=Back,Tell,MenuMpC4v4SE
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SENe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<h3>Ally #2 position: Northeast ~[IplayerBanner.12]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNEWNe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SEWNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SENeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SENeSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SENeNw
+
+$Button=Back,Tell,MenuMpC4v4SE
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SESw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<h3>Ally #2 position: Southwest ~[IplayerBanner.13]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNESw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SEWSw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SENeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SESwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SESwNw
+
+$Button=Back,Tell,MenuMpC4v4SE
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SESe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<h3>Ally #2 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNESe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SEWSe
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SENeSe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SESwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SESeNw
+
+$Button=Back,Tell,MenuMpC4v4SE
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SENw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: East ~[IplayerBanner.10]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNENw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SEWNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SENeNw
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SESwNw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SESeNw
+
+$Button=Back,Tell,MenuMpC4v4SE
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SW]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: West ~[IplayerBanner.11]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNW
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SEW
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SWNe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SWSw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SWSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SWNw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SWNe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: West ~[IplayerBanner.11]</h3>
+<h3>Ally #2 position: Northeast ~[IplayerBanner.12]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNWNe
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SEWNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SWNeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SWNeSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SWNeNw
+
+$Button=Back,Tell,MenuMpC4v4SW
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SWSw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: West ~[IplayerBanner.11]</h3>
+<h3>Ally #2 position: Southwest ~[IplayerBanner.13]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNWSw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SEWSw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SWNeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SWSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SWSwNw
+
+$Button=Back,Tell,MenuMpC4v4SW
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SWSe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: West ~[IplayerBanner.11]</h3>
+<h3>Ally #2 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNWSe
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SEWSe
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SWNeSe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SWSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SWSeNw
+
+$Button=Back,Tell,MenuMpC4v4SW
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SWNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: West ~[IplayerBanner.11]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNWNw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SEWNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SWNeNw
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SWSwNw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SWSeNw
+
+$Button=Back,Tell,MenuMpC4v4SW
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Northeast ~[IplayerBanner.12]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNNe
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SENe
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SWNe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SNeSw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SNeSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SNeNw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNeSw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Northeast ~[IplayerBanner.12]</h3>
+<h3>Ally #2 position: Southwest ~[IplayerBanner.13]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNNeSw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SENeSw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWNeSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNeSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNeSwNw
+
+$Button=Back,Tell,MenuMpC4v4SNe
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNeSe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Northeast ~[IplayerBanner.12]</h3>
+<h3>Ally #2 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNNeSe
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SENeSe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWNeSe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNeSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SNeSeNw
+
+$Button=Back,Tell,MenuMpC4v4SNe
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNeNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Northeast ~[IplayerBanner.12]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNNeNw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SENeNw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWNeNw
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SNeSwNw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SNeSeNw
+
+$Button=Back,Tell,MenuMpC4v4SNe
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SSw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Southwest ~[IplayerBanner.13]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNSw
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SESw
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SWSw
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SNeSw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SSwSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SSwNw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SSwSe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Southwest ~[IplayerBanner.13]</h3>
+<h3>Ally #2 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNSwSe
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SESwSe
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWSwSe
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNeSwSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC4v4SSwSeNw
+
+$Button=Back,Tell,MenuMpC4v4SSw
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SSwNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Southwest ~[IplayerBanner.13]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNSwNw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SESwNw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWSwNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNeSwNw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC4v4SSwSeNw
+
+$Button=Back,Tell,MenuMpC4v4SSw
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SSe]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Southeast ~[IplayerBanner.14]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNSe
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SESe
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SWSe
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SNeSe
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SSwSe
+$Menu=Northwest ~[IplayerBanner.15],Tell,MenuMpC4v4SSeNw
+
+$Button=Back,Tell,MenuMpC4v4S
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SSeNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Southeast ~[IplayerBanner.14]</h3>
+<h3>Ally #2 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #3 position.
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC4v4SNSeNw
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC4v4SESeNw
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC4v4SWSeNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC4v4SNeSeNw
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC4v4SSwSeNw
+
+$Button=Back,Tell,MenuMpC4v4SSe
+$Button=Restart,Tell,A.
+$Button=Quit,MissionAbort,0
+
+[MenuMpC4v4SNw]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 4 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally #1 position: Northwest ~[IplayerBanner.15]</h3>
+<p>Select Ally #2 position.
+
+$Menu=North ~[IplayerBanner.9],Tell,MenuMpC4v4SNNw
+$Menu=East ~[IplayerBanner.10],Tell,MenuMpC4v4SENw
+$Menu=West ~[IplayerBanner.11],Tell,MenuMpC4v4SWNw
+$Menu=Northeast ~[IplayerBanner.12],Tell,MenuMpC4v4SNeNw
+$Menu=Southwest ~[IplayerBanner.13],Tell,MenuMpC4v4SSwNw
+$Menu=Southeast ~[IplayerBanner.14],Tell,MenuMpC4v4SSeNw
+
+$Button=Back,Tell,MenuMpC4v4S
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
