@@ -7,9 +7,9 @@ randGeysers = 1
 
 myStartMoney = 6500
 myTech = "all;outpost"
-myAllyList = ""
+myAllyList = "6"
 
-title="2 versus 1"
+title="2 Versus 1"
 
 ai2Name = "Red"
 ai2Tech = ""
@@ -37,7 +37,7 @@ ai6BridgeDrawRate = 1
 
 [A.]
 <h1>Multiplayer Classic Islands</h1>
-<h2>Game: 2 versus 1</h2>
+<h2>Game: 2 Versus 1</h2>
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <h3>Ally position: Southwest ~[IplayerBanner.14]</h3>
 <h3>Enemy position: North ~[IplayerBanner.9]</h3>
