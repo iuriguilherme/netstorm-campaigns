@@ -23,7 +23,7 @@ ai2BridgeDrawRate = 8
 [Options]
 
 [A.]
-<h2>Free Play Interactive Menu</h2>
+<h1>Free Play Interactive Menu</h1>
 <p>Select type of game
 <p>If you don't see an option, it's because it is still not implemented. Make sure ~B~ENetStorm Free Play Campaign~. is updated by visiting <a href="https://github.com/desci/netstorm-campaigns">https://github.com/desci/netstorm-campaigns</a>.
 
@@ -35,8 +35,7 @@ $Button=Back,Tell,Campaign
 $Button=Quit,MissionAbort,0
 
 [MenuMpC]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
+<h1>Multiplayer Classic Islands</h1>
 <p>Select number of allies
 
 $Menu=0,Tell,MenuMpC1
@@ -46,9 +45,8 @@ $Button=Back,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus X</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus X</h2>
 <p>Select number of enemies
 
 $Menu=1 Versus 1,Tell,MenuMpC1v1
@@ -64,9 +62,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
 <p>Select your position.
 <p>The color is merely a reference to the multiplayer game positions. Your color will be always ~[IplayerBanner.8].
 
@@ -84,10 +81,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select Enemy starting position.
 
 $Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC1v1S
@@ -103,13 +99,12 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1N]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: North ~[IplayerBanner.9]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: North ~[IplayerBanner.9] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
-$Menu=South ~[IplayerBanner.8] (will be ~[IplayerBanner.9]),MissionBegin,FreePlayMpC1v1NvS
+$Menu=South ~[IplayerBanner.8]  (color will be ~[IplayerBanner.9]),MissionBegin,FreePlayMpC1v1NvS
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC1v1N
 $Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC1v1N
 $Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC1v1N
@@ -122,10 +117,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1E]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: East ~[IplayerBanner.10]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: East ~[IplayerBanner.10] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1E
@@ -141,10 +135,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1W]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: West ~[IplayerBanner.11]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: West ~[IplayerBanner.11] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1W
@@ -160,10 +153,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1Ne]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: Northeast ~[IplayerBanner.12]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: Northeast ~[IplayerBanner.12] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1Ne
@@ -179,10 +171,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1Se]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: Southeast ~[IplayerBanner.13]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: Southeast ~[IplayerBanner.13] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1Se
@@ -198,10 +189,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1Sw]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: Southwest ~[IplayerBanner.14]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: Southwest ~[IplayerBanner.14] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1Sw
@@ -217,10 +207,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v1Nw]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 1</h4>
-<h5>Player position: Northwest ~[IplayerBanner.15]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 1</h2>
+<h3>Player position: Northwest ~[IplayerBanner.15] (color will be ~[IplayerBanner.8])</h3>
 <p>Select Enemy starting position.
 
 $Menu=~r~B~E(not available)~w~. South ~[IplayerBanner.8],Tell,MenuMpC1v1Nw
@@ -237,9 +226,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v2]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 2</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 2</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -257,10 +245,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v2S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 2</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 2</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select Enemy #1 position.
 
 $Menu=North ~[IplayerBanner.9],Tell,MenuMpC1v2SvN
@@ -276,11 +263,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v2SvN]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 2</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>Enemy #1 position: North ~[IplayerBanner.9]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 2</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Enemy #1 position: North ~[IplayerBanner.9]</h3>
 <p>Select Enemy #2 position.
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC1v2SvN
@@ -295,9 +281,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v3]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 3</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 3</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -315,10 +300,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v3S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 3</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 3</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select enemy #1 position.
 
 $Menu=North ~[IplayerBanner.9],Tell,MenuMpC1v3SvN
@@ -334,11 +318,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v3SvN]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 3</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>Enemy #1 position: North ~[IplayerBanner.9]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 3</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Enemy #1 position: North ~[IplayerBanner.9]</h3>
 <p>Select enemy #2 position.
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC1v3SvN
@@ -353,12 +336,11 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v3SvNNe]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 3</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>Enemy #1 position: North ~[IplayerBanner.9]</h6>
-<h6>Enemy #2 position: Northeast ~[IplayerBanner.12]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 3</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Enemy #1 position: North ~[IplayerBanner.9]</h3>
+<h3>Enemy #2 position: Northeast ~[IplayerBanner.12]</h3>
 <p>Select enemy #3 position.
 
 $Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC1v3SvNNe
@@ -372,9 +354,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -392,10 +373,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select first of three position to have no enemies. All other four positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v4S
@@ -411,11 +391,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4SmE]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>No one in East ~[IplayerBanner.10]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>No one in East ~[IplayerBanner.10]</h3>
 <p>Select second of three position to have no enemies. All other four positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v4SvmE
@@ -430,12 +409,11 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4SmESe]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>No one in East ~[IplayerBanner.10]</h6>
-<h6>No one in Southeast ~[IplayerBanner.13]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>No one in East ~[IplayerBanner.10]</h3>
+<h3>No one in Southeast ~[IplayerBanner.13]</h3>
 <p>Select third of three position to have no enemies. All other four positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v4SvmESe
@@ -449,11 +427,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4SvmW]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>No one in West ~[IplayerBanner.11]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>No one in West ~[IplayerBanner.11]</h3>
 <p>Select second of three position to have no enemies. All other four positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v4SvmW
@@ -468,12 +445,11 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v4SvmWSe]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 4</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>No one in West ~[IplayerBanner.11]</h6>
-<h6>No one in Southeast ~[IplayerBanner.13]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 4</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>No one in West ~[IplayerBanner.11]</h3>
+<h3>No one in Southeast ~[IplayerBanner.13]</h3>
 <p>Select third of three position to have no enemies. All other four positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v4SvmWSe
@@ -487,9 +463,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v5]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 5</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 5</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -507,10 +482,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v5S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 5</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 5</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select first of two positions to be empty. All other five positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v5S
@@ -526,11 +500,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v5SvmSe]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 5</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>No one in Southeast ~[IplayerBanner.13]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 5</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>No one in Southeast ~[IplayerBanner.13]</h3>
 <p>Select second of two positions to be empty. All other five positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v5S
@@ -545,9 +518,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v6]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 6</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 6</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -565,10 +537,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v6S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 6</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 6</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select one position to be empty. All other six positions will be taken by enemies.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC1v6S
@@ -584,9 +555,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC1v7]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 1 Versus 7</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 1 Versus 7</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -604,9 +574,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC2]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 2 Versus X</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 2 Versus X</h2>
 <p>Select number of enemies
 
 $Menu=2 versus 1,Tell,MenuMpC2v1
@@ -621,9 +590,8 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC2v1]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 2 Versus 1</h4>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 2 Versus 1</h2>
 <p>Select your starting position.
 <p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
 
@@ -641,10 +609,9 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC2v1S]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 2 Versus 1</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 2 Versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select ally position.
 
 $Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC2v1S
@@ -660,11 +627,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC2v1SSe]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 2 Versus 1</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>Ally position: Southeast ~[IplayerBanner.13]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 2 Versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally position: Southeast ~[IplayerBanner.13]</h3>
 <p>Select enemy position.
 
 $Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC2v1SSevN
@@ -680,11 +646,10 @@ $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
 [MenuMpC2v1SSw]
-<h2>Free Play Interactive Menu</h2>
-<h3>Multiplayer Classic Islands</h3>
-<h4>Game: 2 Versus 1</h4>
-<h5>Player position: South ~[IplayerBanner.8]</h5>
-<h6>Ally position: Southwest ~[IplayerBanner.14]</h6>
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 2 Versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally position: Southwest ~[IplayerBanner.14]</h3>
 <p>Select enemy position.
 
 $Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC2v1SSwvN

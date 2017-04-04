@@ -25,8 +25,9 @@ ai6BridgeDrawRate = 1
 [Options]
 
 [A.]
+<h1>Multiplayer Classic Islands</h1>
 <h2>Game: 1 versus 1</h2>
-<h3>Player position: Northeast ~[IplayerBanner.12]</h3>
+<h3>Player position: Northeast ~[IplayerBanner.12] (color will be ~[IplayerBanner.8])</h3>
 <h3>Enemy position: Southwest ~[IplayerBanner.14]</h3>
 
 $Button=Review Knowledge,ShowTechnology,55
@@ -34,7 +35,7 @@ $Button=Play Mission,DoNothing,0
 $Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Succeeded][BadTeamDead]
-<h2>Success!</h2>
+<h1>Success!</h1>
 <p>You won.
 
 <$Config,Done{mission.fileName}=1>
@@ -44,7 +45,7 @@ $Button=Leave Missions,MissionAbort,0
 $Button=Select Menu,MissionBegin,FreePlayMenu
 
 [Failed]
-<h2>Failure!</h2>
+<h1>Failure!</h1>
 <p>You lost.
 
 $Button=Continue Mission,DoNothing,0
