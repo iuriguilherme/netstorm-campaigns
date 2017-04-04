@@ -58,7 +58,7 @@ $Button=Quit,MissionAbort,0
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select enemy starting position.
 
-$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlay1v1SN
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlay1v1SvN
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -68,7 +68,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: North ~[IplayerBanner.9]</h3>
 <p>Select enemy starting position.
 
-$Menu=South ~[IplayerBanner.8] (will be ~[IplayerBanner.9]),MissionBegin,FreePlay1v1NS
+$Menu=South ~[IplayerBanner.8] (will be ~[IplayerBanner.9]),MissionBegin,FreePlay1v1NvS
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -78,7 +78,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: East ~[IplayerBanner.10]</h3>
 <p>Select enemy starting position.
 
-$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlay1v1EW
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlay1v1EvW
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -88,7 +88,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: West ~[IplayerBanner.11]</h3>
 <p>Select enemy starting position.
 
-$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlay1v1WE
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlay1v1WvE
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -98,7 +98,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: Northeast ~[IplayerBanner.12]</h3>
 <p>Select enemy starting position.
 
-$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v1NeSw
+$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v1NevSw
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -108,7 +108,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: Southeast ~[IplayerBanner.13]</h3>
 <p>Select enemy starting position.
 
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1v1SeNw
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1v1SevNw
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -118,7 +118,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: Southwest ~[IplayerBanner.14]</h3>
 <p>Select enemy starting position.
 
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1v1SeNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1v1SevNw
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -128,7 +128,7 @@ $Button=Quit,MissionAbort,0
 <h3>Starting position: Northwest ~[IplayerBanner.15]</h3>
 <p>Select enemy starting position.
 
-$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1v1NwSe
+$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1v1NwvSe
 $Button=Back,Tell,Menu1v1
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -147,19 +147,19 @@ $Button=Quit,MissionAbort,0
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select enemy 1 position.
 
-$Menu=North ~[IplayerBanner.9],Tell,Menu1v2SN
+$Menu=North ~[IplayerBanner.9],Tell,Menu1v2SvN
 $Button=Back,Tell,Menu1v2
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
 
-[Menu1v2SN]
+[Menu1v2SvN]
 <h2>1 Versus 2</h2>
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <h4>Enemy 1 position: North ~[IplayerBanner.9]</h4>
 <p>Select enemy 2 position.
 
-$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1v2SNe
-$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1v2SNw
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlay1v2SvNNe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlay1v2SvNNw
 $Button=Back,Tell,Menu1v2S
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -187,8 +187,8 @@ $Button=Quit,MissionAbort,0
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select three positions to be empty. All other four positions will be taken by enemies.
 
-$Menu=West ~[IplayerBanner.11] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SmWSeSw
-$Menu=East ~[IplayerBanner.10] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SmESeSw
+$Menu=West ~[IplayerBanner.11] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SvmWSeSw
+$Menu=East ~[IplayerBanner.10] Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v4SvmESeSw
 $Button=Back,Tell,Menu1v5
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -207,7 +207,7 @@ $Button=Quit,MissionAbort,0
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select two positions to be empty. All other five positions will be taken by enemies.
 
-$Menu=Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v5SmSeSw
+$Menu=Southeast ~[IplayerBanner.13] and Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v5SvmSeSw
 $Button=Back,Tell,Menu1v5
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
@@ -226,8 +226,8 @@ $Button=Quit,MissionAbort,0
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <p>Select one position to be empty. All other six positions will be taken by enemies.
 
-$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1v6SmSe
-$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v6SmSw
+$Menu=Southeast ~[IplayerBanner.13],MissionBegin,FreePlay1v6SvmSe
+$Menu=Southwest ~[IplayerBanner.14],MissionBegin,FreePlay1v6SvmSw
 $Button=Back,Tell,Menu1v6
 $Button=Restart,Tell,A.
 $Button=Quit,MissionAbort,0
