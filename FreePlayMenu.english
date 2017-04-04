@@ -55,13 +55,13 @@ $Button=Quit,Tell,Campaign
 <h2>Teams: 2</h2>
 <p>Select number of ~BAllies~.
 
-$Menu=0,Tell,MenuMpC1
-$Menu=1,Tell,MenuMpC2
-$Menu=2,Tell,MenuMpC3
-$Menu=3,Tell,MenuMpC4
-$Menu=4,Tell,MenuMpC5
-$Menu=5,Tell,MenuMpC6
-$Menu=6,Tell,MenuMpC7v1
+$Menu=0,Tell,MenuMpC2t1
+$Menu=1,Tell,MenuMpC2t2
+$Menu=2,Tell,MenuMpC2t3
+$Menu=3,Tell,MenuMpC2t4
+$Menu=4,Tell,MenuMpC2t5
+$Menu=5,Tell,MenuMpC2t6
+$Menu=6,Tell,MenuMpC2t7v1
 
 $Button=Back,Tell,MenuMpC
 $Button=Restart,Tell,A.
