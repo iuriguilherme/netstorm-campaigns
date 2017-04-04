@@ -2,25 +2,23 @@ title = "NetStorm Free Play"
 
 [Overview]
 <background="nsstart">
-<h2>NetStorm Free Play Campaign</h2>
-<p>This campaign has no story. This is just a reunion of edited maps for single playing.
-<p>Some of the maps are inspired in what a multiplayer game would look like.
-<p>You can start any level, you don't have to complete one to play another.
-<p>For all maps, you have all technology, plus outposts.
+<h1>NetStorm Free Play Campaign</h1>
+<p>This campaign has no story. This is just a reunion of edited maps for single playing. Some of the maps are inspired in what a multiplayer game would look like. You can start any level, you don't have to complete one to play another. For all maps, you have all technology, plus outposts.
 <p>
-<h3>Links</h3>
+<h2>Instructions</h2>
+<p>There isn't a menu here, click on "Select Game" below and a fake mission with an interactive menu will start.
+<p>
+<h2>Links</h2>
 <p>This campaign is released to the public domain with "The Unlicense", you may edit the files at will. Even send back your modifications or additions =D
 <p>This is a work in progress. Last update should be on github: <a href="https://github.com/desci/netstorm-campaigns">https://github.com/desci/netstorm-campaigns</a>
 <p>This was supposed to be published originally at the netstorm subreddit: <a href="https://reddit.com/r/netstorm">https://reddit.com/r/netstorm</a>
 <p>
-<i>Where are nsworld, fleet, kelljes, big, ingwe, stormy, 18c, needa, kain, gonz, not necessarily in that order?<br />
---Someone on Reddit</i> ~[IsunWalker.0]
+<i>-Where are nsworld, fleet, kelljes, big, ingwe, stormy, 18c, needa, kain, gonz, not necessarily in that order?<br />
+~I--Someone on Reddit~.</i> ~[IsunWalker.0]
 <p>
-<i>Is netstormhq.com working for you guys?<br />
---Someone else on Reddit</i> ~[IsunWalker.1]
+<i>-Is netstormhq.com working for you guys?<br />
+~I--Someone else on Reddit~.</i> ~[IsunWalker.1]
 <p>
-<h3>Instructions</h3>
-<p>There isn't a menu here, click on "Select Game" below and an interactive menu will start.
 
 $Button=Select Game!,MissionBegin,FreePlayMenu
 $Button=Back,Tell,Campaign

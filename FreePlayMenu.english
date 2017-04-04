@@ -25,7 +25,9 @@ ai2BridgeDrawRate = 8
 [A.]
 <h1>Free Play Interactive Menu</h1>
 <p>Select type of game
-<p>If you don't see an option, it's because it is still not implemented. Make sure ~B~ENetStorm Free Play Campaign~. is updated by visiting <a href="https://github.com/desci/netstorm-campaigns">https://github.com/desci/netstorm-campaigns</a>.
+<p>If you don't see an option, it's because it is still not implemented.
+<p>If it's marked with "~r~B~E(not available)~w~.", it's because it will be implemented, but still hasn't.
+<p>Make sure ~B~ENetStorm Free Play Campaign~. is updated by updating with the latest release from <a href="https://github.com/desci/netstorm-campaigns">the github repository</a>.
 
 $Menu=Classic multiplayer,Tell,MenuMpC
 $Menu=~r~B~E(not available)~w~. Classic multiplayer with big central island,Tell,A.
