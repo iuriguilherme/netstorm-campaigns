@@ -7,7 +7,7 @@ randGeysers = 1
 
 myStartMoney = 6500
 myTech = "all;outpost"
-myAllyList = "3"
+myAllyList = "5;6"
 
 title="3 Versus 5"
 

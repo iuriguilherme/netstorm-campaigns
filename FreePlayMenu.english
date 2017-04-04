@@ -61,7 +61,7 @@ $Menu=2,Tell,MenuMpC3
 $Menu=3,Tell,MenuMpC4
 $Menu=4,Tell,MenuMpC5
 $Menu=5,Tell,MenuMpC6
-$Menu=~r~B~E(not available)~w~. 6,Tell,MenuMpC
+$Menu=6,Tell,MenuMpC7v1
 
 $Button=Back,Tell,MenuMpC
 $Button=Restart,Tell,A.
@@ -2471,6 +2471,43 @@ $Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC2t6v2SmSwNw
 $Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC2t6v2SmSeNw
 
 $Button=Back,Tell,MenuMpC2t6v2S
+$Button=Restart,Tell,A.
+$Button=Quit,Tell,Campaign
+
+[MenuMpC2t7v1]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 7 Versus 1</h2>
+<p>Select your starting position.
+<p>The color is merely a reference to the multiplayer game starting positions. Your color will be always ~[IplayerBanner.8].
+
+$Menu=South ~[IplayerBanner.8],Tell,MenuMpC2t7v1S
+$Menu=~r~B~E(not available)~w~. North ~[IplayerBanner.9],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. East ~[IplayerBanner.10],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. West ~[IplayerBanner.11],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. Northeast ~[IplayerBanner.12],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. Southwest ~[IplayerBanner.13],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. Southeast ~[IplayerBanner.14],Tell,MenuMpC2t7v1
+$Menu=~r~B~E(not available)~w~. Northwest ~[IplayerBanner.15],Tell,MenuMpC2t7v1
+
+$Button=Back,Tell,MenuMpC2t
+$Button=Restart,Tell,A.
+$Button=Quit,Tell,Campaign
+
+[MenuMpC2t7v1S]
+<h1>Multiplayer Classic Islands</h1>
+<h2>Game: 7 Versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<p>Select ~BEnemy~. position
+
+$Menu=North ~[IplayerBanner.9],MissionBegin,FreePlayMpC2t7v1SmN
+$Menu=East ~[IplayerBanner.10],MissionBegin,FreePlayMpC2t7v1SmE
+$Menu=West ~[IplayerBanner.11],MissionBegin,FreePlayMpC2t7v1SmW
+$Menu=Northeast ~[IplayerBanner.12],MissionBegin,FreePlayMpC2t7v1SmNe
+$Menu=Southwest ~[IplayerBanner.13],MissionBegin,FreePlayMpC2t7v1SmSw
+$Menu=Southeast ~[IplayerBanner.14],MissionBegin,FreePlayMpC2t7v1SmSe
+$Menu=Northwest ~[IplayerBanner.15],MissionBegin,FreePlayMpC2t7v1SmNw
+
+$Button=Back,Tell,MenuMpC2t7v1
 $Button=Restart,Tell,A.
 $Button=Quit,Tell,Campaign
 
