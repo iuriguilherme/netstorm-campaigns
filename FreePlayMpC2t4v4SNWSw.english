@@ -19,7 +19,7 @@ ai2Collectors = 8
 ai2TimeBetweenMoves = 1
 ai2AllyList = "1;4;6"
 ai2color = red
-ai2Ability = ""
+ai2Ability = "!USE_PRIEST_TO_COLLECT"
 ai2BridgeDrawRate = 1
 
 ai3Name = "White"
@@ -30,7 +30,7 @@ ai3Collectors = 8
 ai3TimeBetweenMoves = 1
 ai3AllyList = "5;7;8"
 ai3color = white
-ai3Ability = ""
+ai3Ability = "!USE_PRIEST_TO_COLLECT"
 ai3BridgeDrawRate = 1
 
 ai4Name = "Green"
@@ -41,7 +41,7 @@ ai4Collectors = 8
 ai4TimeBetweenMoves = 1
 ai4AllyList = "1;2;6"
 ai4color = green
-ai4Ability = ""
+ai4Ability = "!USE_PRIEST_TO_COLLECT"
 ai4BridgeDrawRate = 1
 
 ai5Name = "Purple"
@@ -52,7 +52,7 @@ ai5Collectors = 8
 ai5TimeBetweenMoves = 1
 ai5AllyList = "3;7;8"
 ai5color = purple
-ai5Ability = ""
+ai5Ability = "!USE_PRIEST_TO_COLLECT"
 ai5BridgeDrawRate = 1
 
 ai6Name = "Yellow"
@@ -63,7 +63,7 @@ ai6Collectors = 8
 ai6TimeBetweenMoves = 1
 ai6AllyList = "1;2;4"
 ai6color = yellow
-ai6Ability = ""
+ai6Ability = "!USE_PRIEST_TO_COLLECT"
 ai6BridgeDrawRate = 1
 
 ai7Name = "Cyan"
@@ -74,7 +74,7 @@ ai7Collectors = 8
 ai7TimeBetweenMoves = 1
 ai7AllyList = "3;5;8"
 ai7color = cyan
-ai7Ability = ""
+ai7Ability = "!USE_PRIEST_TO_COLLECT"
 ai7BridgeDrawRate = 1
 
 ai8Name = "Orange"
@@ -85,7 +85,7 @@ ai8Collectors = 8
 ai8TimeBetweenMoves = 1
 ai8AllyList = "3;5;7"
 ai8color = orange
-ai8Ability = ""
+ai8Ability = "!USE_PRIEST_TO_COLLECT"
 ai8BridgeDrawRate = 1
 
 [Options]

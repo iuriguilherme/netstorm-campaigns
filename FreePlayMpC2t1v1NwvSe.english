@@ -19,7 +19,7 @@ ai7Collectors = 8
 ai7TimeBetweenMoves = 1
 ai7AllyList = ""
 ai7color = cyan
-ai7Ability = ""
+ai7Ability = "!USE_PRIEST_TO_COLLECT"
 ai7BridgeDrawRate = 1
 
 [Options]

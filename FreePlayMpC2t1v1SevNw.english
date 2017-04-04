@@ -19,7 +19,7 @@ ai5Collectors = 8
 ai5TimeBetweenMoves = 1
 ai5AllyList = ""
 ai5color = purple
-ai5Ability = ""
+ai5Ability = "!USE_PRIEST_TO_COLLECT"
 ai5BridgeDrawRate = 1
 
 [Options]
