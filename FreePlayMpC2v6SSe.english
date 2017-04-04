@@ -9,7 +9,7 @@ myStartMoney = 6500
 myTech = "all;outpost"
 myAllyList = "7"
 
-title="2 Versus 4"
+title="2 Versus 6"
 
 ai2Name = "Red"
 ai2Tech = ""
@@ -92,7 +92,7 @@ ai8BridgeDrawRate = 1
 
 [A.]
 <h1>Multiplayer Classic Islands</h1>
-<h2>Game: 2 Versus 4</h2>
+<h2>Game: 2 Versus 6</h2>
 <h3>Player position: South ~[IplayerBanner.8]</h3>
 <h3>Ally position: Southeast ~[IplayerBanner.14]</h3>
 <h3>Enemy #1 position: North ~[IplayerBanner.9]</h3>
