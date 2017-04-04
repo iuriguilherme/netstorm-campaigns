@@ -1,0 +1,67 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+randGeysers = 1
+
+myStartMoney = 6500
+myTech = "all;outpost"
+myAllyList = ""
+
+title="2 versus 1"
+
+ai2Name = "Red"
+ai2Tech = ""
+ai2StartMoney = 1100
+ai2GeyserAttachments = 8
+ai2Collectors = 8
+ai2TimeBetweenMoves = 1
+ai2AllyList = ""
+ai2color = red
+ai2Ability = ""
+ai2BridgeDrawRate = 1
+
+ai6Name = "Yellow"
+ai6Tech = ""
+ai6StartMoney = 1100
+ai6GeyserAttachments = 8
+ai6Collectors = 8
+ai6TimeBetweenMoves = 1
+ai6AllyList = "1"
+ai6color = yellow
+ai6Ability = ""
+ai6BridgeDrawRate = 1
+
+[Options]
+
+[A.]
+<h2>Game: 2 versus 1</h2>
+<h3>Player position: South ~[IplayerBanner.8]</h3>
+<h3>Ally position: Southwest ~[IplayerBanner.14]</h3>
+<h3>Enemy position: North ~[IplayerBanner.9]</h3>
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>You won.
+
+<$Config,Done{mission.fileName}=1>
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[Failed]
+<h2>Failure!</h2>
+<p>You lost.
+
+$Button=Continue Mission,DoNothing,0
+$Button=Restart Mission,Tell,TryAgain
+$Button=Leave Missions,MissionAbort,0
+$Button=Select Menu,MissionBegin,FreePlayMenu
+
+[END]
